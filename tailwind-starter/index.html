@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html class="font-reset xl:text-base" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- icon -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="compiled.css" />
+		<title>tailwind on its way</title>
+	</head>
+	<body class="font-prime text-white">
+		<header class="bg-hero bg-cover bg-center bg-no-repeat min-h-screen">
+			<nav class="fixed top-6 left-1/2 transform -translate-x-1/2 w-2/3 z-50">
+				<ul class="bg-white flex items-center rounded-full px-6 py-4 shadow-lg">
+					<li class="bg-logo bg-no-repeat mr-auto">
+						<a href="#">
+							<img src="../assets/logo.png" alt="logo - Softy Pinko" />
+						</a>
+					</li>
+					<li class="nav-item active">Home</li>
+					<li class="nav-item">About</li>
+					<li class="nav-item">Work place</li>
+					<li class="nav-item">Testimonials</li>
+					<li class="nav-item">Pricing tables</li>
+					<li class="nav-item">Blog</li>
+					<li class="nav-item">Contact US</li>
+				</ul>
+			</nav>
+			<div
+				class="absolute top-1/4 left-1/2 transform -translate-x-1/2 text-center"
+			>
+				<h1 class="text-5xl font-thin leading-normal mb-9">
+					We provide the best <strong>strategy</strong><br />
+					to grow up your <strong>business</strong>
+				</h1>
+				<p class="text-base tracking-wider mb-8">
+					Softy Pinko is a professional Bootstrap 4.0 theme designed by Template
+					Mo <br />
+					for your company at absolutely free of charge
+				</p>
+				<button class="btn btn--more">discover more</button>
+			</div>
+
+			<!-- card container -->
+			<div
+				class="
+					absolute
+					top-3/4
+					left-1/2
+					transform
+					-translate-x-1/2
+					grid grid-cols-3
+					gap-8
+					w-3/4
+				"
+			>
+				<!--  cards -->
+				<div class="card">
+					<div class="card-img">
+						<img src="../assets/featured-item-01.png" alt="features" />
+					</div>
+					<h4 class="card-heading">Modern Strategy</h4>
+					<p class="card-paragraph">
+						Customize anything in this template to fit your website needs
+					</p>
+				</div>
+
+				<div class="card">
+					<div class="card-img">
+						<img src="../assets/featured-item-01.png" alt="features" />
+					</div>
+					<h4 class="card-heading">Best Relationship</h4>
+					<p class="card-paragraph">
+						Contact us immediately if you have a question in mind
+					</p>
+				</div>
+
+				<div class="card">
+					<div class="card-img">
+						<img src="../assets/featured-item-01.png" alt="features" />
+					</div>
+					<h4 class="card-heading">Ultimate Marketing</h4>
+					<p class="card-paragraph">
+						You just need to tell your friends about our free templates
+					</p>
+				</div>
+				<!--  end of cards -->
+			</div>
+			<!-- end of card container -->
+		</header>
+
+		<main class="pt-40">
+			<section class="section-half pt-8 pb-28">
+				<img
+					class="ml-12 mr-auto"
+					src="../assets/left-image.png"
+					alt="discussion of project"
+				/>
+				<div class="w-1/2">
+					<h2 class="text-gray-700 tracking-wider font-semibold text-2xl mb-10">
+						Let’s discuss about you project
+					</h2>
+					<p class="text-gray-500 font-light font-sm leading-loose">
+						Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue
+						blandit, at finibus leo efficitur. Nam gravida purus non sapien
+						auctor, ut aliquam magna ullamcorper.
+					</p>
+				</div>
+			</section>
+
+			<section class="section-half py-28">
+				<div class="w-1/2">
+					<h2 class="text-gray-700 tracking-wider font-semibold text-2xl mb-10">
+						We can help you to grow your business
+					</h2>
+					<p class="text-gray-500 font-light font-sm leading-loose">
+						Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis nisi,
+						a bibendum lectus libero vitae urna. Sed id leo eu dolor luctus
+						congue sed eget ipsum. Nunc nec luctus libero. Etiam quis dolor
+						elit.
+					</p>
+				</div>
+				<img
+					class="mr-12 ml-auto"
+					src="../assets/right-image.png"
+					alt="discussion of project"
+				/>
+			</section>
+
+			<section class="bg-process bg-cover bg-center pt-28 pb-20">
+				<div class="wrapper">
+					<h2 class="text-3xl font-medium tracking-wider mb-8 text-center">
+						Work Process
+					</h2>
+					<p class="text-sm tracking-widest leading-loose text-center mb-8">
+						Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet
+						<br />
+						interdum, vehicula ut ex. Donec ante diam.
+					</p>
+					<div class="grid grid-cols-6 gap-9">
+						<a class="process-card" href="#">
+							<img
+								class="process-card__img"
+								src="../assets/work-process-item-01.png"
+								alt="work process"
+							/>
+							<h4 class="process-card__heading">Get Ideas</h4>
+							<p class="process-card__paragraph">Lorem ipsum dolor sit amet.</p>
+						</a>
+						<a class="process-card" href="#">
+							<img
+								class="process-card__img"
+								src="../assets/work-process-item-01.png"
+								alt="work process"
+							/>
+							<h4 class="process-card__heading">Sketch up</h4>
+							<p class="process-card__paragraph">Lorem ipsum dolor sit amet.</p>
+						</a>
+						<a class="process-card" href="#">
+							<img
+								class="process-card__img"
+								src="../assets/work-process-item-01.png"
+								alt="work process"
+							/>
+							<h4 class="process-card__heading">Discuss</h4>
+							<p class="process-card__paragraph">Lorem ipsum dolor sit amet.</p>
+						</a>
+						<a class="process-card" href="#">
+							<img
+								class="process-card__img"
+								src="../assets/work-process-item-01.png"
+								alt="work process"
+							/>
+							<h4 class="process-card__heading">Revise</h4>
+							<p class="process-card__paragraph">Lorem ipsum dolor sit amet.</p>
+						</a>
+						<a class="process-card" href="#">
+							<img
+								class="process-card__img"
+								src="../assets/work-process-item-01.png"
+								alt="work process"
+							/>
+							<h4 class="process-card__heading">Approve</h4>
+							<p class="process-card__paragraph">Lorem ipsum dolor sit amet.</p>
+						</a>
+						<a class="process-card" href="#">
+							<img
+								class="process-card__img"
+								src="../assets/work-process-item-01.png"
+								alt="work process"
+							/>
+							<h4 class="process-card__heading">Launch</h4>
+							<p class="process-card__paragraph">Lorem ipsum dolor sit amet.</p>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="py-28 bg-gray-100">
+				<div class="text-center">
+					<h2 class="text-3xl font-medium text-gray-700 tracking-wider mb-8">
+						Talk to us
+					</h2>
+					<p
+						class="
+							text-sm
+							font-normal
+							text-gray-500
+							tracking-widest
+							leading-loose
+							mb-8
+						"
+					>
+						Maecenas pellentesque ante faucibus lectus vulputate sollicitudin.
+						Cras feugiat hendrerit semper.
+					</p>
+				</div>
+				<div class="wrapper flex gap-6">
+					<div class="w-1/3 py-12 px-5">
+						<h3 class="text-xl font-medium text-gray-700 mb-7">
+							Keep in touch
+						</h3>
+						<p class="text-sm font-normal text-gray-500 leading-loose mb-5">
+							110-220 Quisque diam odio, maximus ac consectetur eu, 10260 auctor
+							non lorem
+						</p>
+
+						<p class="text-sm font-normal text-gray-500 leading-loose">
+							You are NOT allowed to re-distribute Softy Pinko template on any
+							template collection websites. Thank you.
+						</p>
+					</div>
+					<form class="flex-grow py-4 flex flex-col">
+						<div class="flex gap-4 mb-6">
+							<input
+								class="input input--txt"
+								type="text"
+								placeholder="Full Name"
+							/>
+							<input
+								class="input input--txt"
+								type="text"
+								placeholder="Email Address"
+							/>
+						</div>
+						<div class="mb-8">
+							<textarea
+								class="input input--area"
+								name="comment"
+								id="comment"
+								rows="7"
+								placeholder="Just anything..."
+							></textarea>
+						</div>
+						<button class="btn btn--message self-start">send message</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="text-black bg-footer py-5 pb-8">
+			<div class="wrapper divide-y divide-gray-200">
+				<ul class="flex justify-center mb-5">
+					<li class="social-item">
+						<a class="social-link" href="#"
+							><i class="fab fa-facebook-f"></i
+						></a>
+					</li>
+					<li class="social-item">
+						<a class="social-link" href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li class="social-item">
+						<a class="social-link" href="#"
+							><i class="fab fa-linkedin-in"></i
+						></a>
+					</li>
+					<li class="social-item">
+						<a class="social-link" href="#">
+							<i class="fas fa-rss"></i>
+						</a>
+					</li>
+					<li class="social-item">
+						<a class="social-link" href="#"><i class="fab fa-dribbble"></i></a>
+					</li>
+				</ul>
+				<p class="text-white text-center text-sm tracking-wide font-light py-6">
+					COPYRIGHT © 2020 SOFTY PINKO COMPANY - DESIGN: TEMPLATEMO
+				</p>
+			</div>
+		</footer>
+		<p
+			class="
+				fixed
+				right-0
+				bottom-5
+				py-2
+				pr-4
+				pl-6
+				text-right text-xl
+				capitalize
+				bg-blue-400 bg-opacity-90
+				text-white
+				font-semibold
+				tracking-widest
+				rounded-l-full
+				flex
+				justify-around
+				items-center
+				z-10
+			"
+		>
+			made with
+			<span class="text-red-600 text-5xl mx-2"> ♥ </span>
+			by Sugarman
+		</p>
+	</body>
+</html>
