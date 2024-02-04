@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&display=swap');
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+@media (min-width: 926px) {
+	html {
+		font-size: 75%;
+	}
+}
+
+@media (max-width: 925px) {
+	html {
+		font-size: 50%;
+	}
+}
+
+@media (max-width: 450px) {
+	html {
+		font-size: 37.5%;
+	}
+}
+
+body {
+	font-family: 'Cuprum', sans-serif;
+	box-sizing: border-box;
+	line-height: 1.4;
+}
+
+:root {
+	--color-primary: #1db954;
+	--color-secondary: rgb(14, 71, 141);
+}

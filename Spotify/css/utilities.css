@@ -1,0 +1,145 @@
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+}
+
+.separator {
+  font-size: 1.5rem;
+  padding: 0 1.5rem;
+  color: #fff;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.7rem 3rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.btn--primary {
+  background-color: #1db954;
+  color: #fff;
+}
+
+.btn--white {
+  background-color: #fff;
+  color: #333 !important;
+}
+
+.section {
+  padding: 8rem 2rem;
+}
+
+.section__header {
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  word-spacing: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.section__line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 2rem;
+  margin-bottom: 6rem;
+}
+
+span.line {
+  display: block;
+  height: 3px;
+  background-color: #1db954;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+
+.line--1 {
+  width: 20rem;
+}
+
+.line--2 {
+  width: 11rem;
+}
+
+/* KEYFRAMES ANIMATION */
+
+.author {
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  font-size: 1.5rem;
+}
+
+.author:hover {
+  animation: ysoul 3s forwards;
+  -webkit-animation: ysoul 3s forwards;
+}
+
+@keyframes ysoul {
+  33% {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+  66% {
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+  }
+  99% {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+}
+
+/* KEYFRAMES ANIMATION */
